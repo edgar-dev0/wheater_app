@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100&family=Lilita+One&family=Nunito:wght@700&display=swap');
+
+:root {
+  background-image: url("./assets/images/wheater.jpg");
+  background-size: cover;
+  font-family: Lato, sans-serif;
+  --white-color: rgb(218, 225, 231);
+  --blue-color: rgb(46, 172, 204);
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-family: Lato, sans-serif;;
+}
+
+
+body {
+  margin: 0;
+  display: flex;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 420px;
+  min-height: 100vh;
+}
+
+h1 {
+  font-family: Lilita One, sans-serif;
+  font-size: 3.2em;
+  color: var(--white-color);
+}
+
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+button {
+  font-family: Nunito, sans-serif;
+  font-size: 18px;
+  padding: 6pt 12pt;
+  color: var(--white-color);
+  background-color: var(--blue-color);
+  border-radius: 8px;
+}
